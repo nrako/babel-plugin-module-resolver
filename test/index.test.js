@@ -196,7 +196,7 @@ describe('module-resolver', () => {
         );
       });
 
-      describe('should not resolve a path outisde of the root directory', () => {
+      describe('should not resolve a path outside of the root directory', () => {
         testRequireImport(
           'lodash/omit',
           'lodash/omit',
@@ -412,7 +412,7 @@ describe('module-resolver', () => {
         );
       });
 
-      describe('should replece missing matches with an empty string', () => {
+      describe('should replace missing matches with an empty string', () => {
         testRequireImport(
           'non-existing-match',
           'passed',
